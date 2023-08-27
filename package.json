@@ -1,8 +1,8 @@
 {
   "name": "genpass",
   "version": "1.0.0",
-  "description": "This is a simple password genrate use Genetic Algorithm.",
-  "main": "GeneticAlgorithm.js",
+  "description": "This is a simple password generate use Genetic Algorithm.",
+  "main": "script.js",
   "directories": {
     "doc": "docs"
   },
