@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator with Genetic Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Main heading -->
+<h1>Password Generator with Genetic Algorithm</h1>
+
+<!-- Description -->
+<p>Enter the <span class="highlight">target password</span> and settings, then click the button to generate a password.
+</p>
+
+<!-- Input fields for target password, population size, and mutation rate -->
+<label for="targetPassword">Target Password:</label>
+<!-- Text input for target password -->
+<input type="text" id="targetPassword" placeholder="Enter target password">
+<br>
+<p class="input-description">Enter the password you want the algorithm to generate. This is the password you want the
+    genetic algorithm to evolve and match.</p>
+
+<label for="populationSize">Population Size:</label>
+<!-- Number input for population size -->
+<input type="number" id="populationSize" value="100">
+<br>
+<p class="input-description">Set the size of the population in the genetic algorithm. A larger population may lead to
+    better results, but also requires more computation.</p>
+
+<label for="mutationRate">Mutation Rate:</label>
+<!-- Number input for mutation rate with step value -->
+<input type="number" id="mutationRate" step="0.01" value="0.1">
+<br>
+<p class="input-description">Define the mutation rate, which determines the likelihood of introducing random changes to
+    the passwords during evolution.</p>
+
+<!-- Button to generate password -->
+<button id="generateButton">Generate Password</button>
+
+<!-- Display area for generated password -->
+<p id="passwordDisplay">
+    Generated Password: <span id="password-part"></span>
+</p>
+<script type="module" src="script.js"></script>
+</body>
+</html>

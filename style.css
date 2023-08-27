@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+}
+.input-container {
+    margin-bottom: 15px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* styles.css */
+#passwordDisplay {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#password-part {
+    color: red; /* Set color for password parts */
+    font-weight: bold;
+}
+.input-description {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
