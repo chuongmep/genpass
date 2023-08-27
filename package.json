@@ -1,0 +1,27 @@
+{
+  "name": "genpass",
+  "version": "1.0.0",
+  "description": "This is a simple password genrate use Genetic Algorithm.",
+  "main": "GeneticAlgorithm.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuongmep/genpass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuongmep/genpass/issues"
+  },
+  "homepage": "https://github.com/chuongmep/genpass#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
