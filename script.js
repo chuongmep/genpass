@@ -1,4 +1,4 @@
-import GeneticAlgorithm from "./geneticAlgorithm.js";
+import GeneticAlgorithm from "/geneticAlgorithm.js";
 const generateButton = document.getElementById("generateButton");
 const passwordDisplay = document.getElementById("password-part");
 
